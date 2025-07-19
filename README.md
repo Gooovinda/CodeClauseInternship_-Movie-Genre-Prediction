@@ -1,19 +1,34 @@
-# 🎬 Movie Genre Prediction using NLP
+# Movie Genre Prediction Based on Plot Summaries 🎥🔍
 
-This project uses Natural Language Processing (NLP) techniques to predict the genre of a movie based on its plot summary.
+This project predicts a movie's genre using NLP and machine learning based on its plot summary.
 
-## 📌 Project Overview
+## 📌 Project Objective
+Build a text classification model to predict the main genre of a movie from its plot description.
 
-- 📖 **Objective**: Build a machine learning model to classify movies into genres using their plot descriptions.
-- 🧠 **Techniques**: Text preprocessing, TF-IDF vectorization, Logistic Regression.
-- 🧰 **Libraries Used**: Python, Pandas, Scikit-learn, NLTK
+## 🧠 Technologies Used
+- Python
+- Pandas
+- NLTK
+- Scikit-learn
 
-## 📁 Dataset
+## ⚙️ Workflow
+1. Loaded and merged TMDB Movies and Credits datasets
+2. Extracted and cleaned the plot summaries
+3. Mapped genre lists to the **main genre** (first genre)
+4. Preprocessed the plot text:
+   - Cleaned, tokenized, and lemmatized
+5. Converted text to numerical data using TF-IDF
+6. Trained a Logistic Regression model for multi-class classification
+7. Evaluated using accuracy and f1-score
 
-- 🔗 Source: [TMDB 5000 Movie Dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
-- 📂 Files Used:
-  - `tmdb_5000_movies.csv`
-- ❗ **Note**: Due to file size constraints, datasets are not included in this repo. Please download them directly from Kaggle.
+## 📈 Results
+- **Accuracy:** ~44%
+- Model performed well for common genres like Drama, Comedy, and Action
+- Future improvements: Try Word2Vec or BERT for better text understanding
+
+## 📂 Datasets
+- [🔗 TMDB Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+- [🔗 TMDB Credits Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
 ## 🚀 How to Run
 
