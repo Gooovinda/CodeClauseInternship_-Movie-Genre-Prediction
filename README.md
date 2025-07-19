@@ -24,3 +24,5 @@ This project uses Natural Language Processing (NLP) techniques to predict the ge
 4. Install dependencies:  
    ```bash
    pip install -r requirements.txt
+   Open and run the notebook:
+5.movie_genre_prediction.ipynb
