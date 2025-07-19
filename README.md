@@ -29,6 +29,10 @@ Build a text classification model to predict the main genre of a movie from its 
 ## 📂 Datasets
 - [🔗 TMDB Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
+## 📌 Note
+⚠️ The datasets are not uploaded to this repository due to file size limitations.
+Please download the datasets directly from Kaggle using the links provided above in the Dataset section before running the notebook.
+
 ## 🚀 How to Run
 
 1. Clone this repository
