@@ -13,7 +13,6 @@ This project uses Natural Language Processing (NLP) techniques to predict the ge
 - 🔗 Source: [TMDB 5000 Movie Dataset on Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 - 📂 Files Used:
   - `tmdb_5000_movies.csv`
-  - `tmdb_5000_credits.csv`
 - ❗ **Note**: Due to file size constraints, datasets are not included in this repo. Please download them directly from Kaggle.
 
 ## 🚀 How to Run
