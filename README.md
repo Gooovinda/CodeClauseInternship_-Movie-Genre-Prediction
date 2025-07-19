@@ -28,7 +28,6 @@ Build a text classification model to predict the main genre of a movie from its 
 
 ## 📂 Datasets
 - [🔗 TMDB Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
-- [🔗 TMDB Credits Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
 ## 🚀 How to Run
 
